@@ -1,0 +1,20 @@
+
+.card__btn {
+    padding: 0.5em 1em;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgba(64, 131, 255, 0.7);
+    color: white;
+    box-shadow: 1px 1px 10px rgba(1, 42, 117, 0.7);
+    transition: transform 100ms ease;
+  }
+  .card__btn:hover {
+    transform: scale(1.04);
+  }
+  .card__btn:active {
+    transform: scale(1);
+    box-shadow: 1px 1px 5px rgba(1, 42, 117, 0.7);
+  }
+  
+
