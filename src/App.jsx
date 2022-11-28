@@ -39,10 +39,7 @@ useEffect (()=>{
     })
     .catch(err => console.log(err))
   }
-
 },[coords])
-
- 
 
   return (
     <div className="App">
@@ -55,8 +52,7 @@ useEffect (()=>{
   )
 }
 
-
 export default App
 
 
-//&units=metric
+
